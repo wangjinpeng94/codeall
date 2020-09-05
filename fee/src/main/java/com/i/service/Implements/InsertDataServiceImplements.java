@@ -14,6 +14,6 @@ public class InsertDataServiceImplements implements InsertDataService {
     @Override
     public int insertTestData(TMybatisgeneratortesttable tMybatisgeneratortesttable) {
 
-        return tMybatisgeneratortesttableMapper.insert(tMybatisgeneratortesttable);
+        return tMybatisgeneratortesttableMapper.insertData(tMybatisgeneratortesttable);
     }
 }

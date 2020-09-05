@@ -99,7 +99,7 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.i.pojo.TMybatisgeneratortesttable">
+  <insert id="insertData" parameterType="com.i.pojo.TMybatisgeneratortesttable">
     insert into t_mybatisgeneratortesttable (id, name, gender, 
       telephone, address)
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{gender,jdbcType=CHAR}, 

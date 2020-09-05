@@ -6,7 +6,7 @@ import com.i.pojo.TMybatisgeneratortesttableExample;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-@Component
+
 public interface TMybatisgeneratortesttableMapper {
     long countByExample(TMybatisgeneratortesttableExample example);
 
@@ -14,7 +14,7 @@ public interface TMybatisgeneratortesttableMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert( TMybatisgeneratortesttable record);
+    int insertData( TMybatisgeneratortesttable record);
 
     int insertSelective(TMybatisgeneratortesttable record);
 
